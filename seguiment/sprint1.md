@@ -5,16 +5,16 @@ https://www.figma.com/file/uUSvPj0rMyLP7dxz54P3qg/Sprint-%231
   - Tipus: MongoDB o MySQL
   - Entitats:
 
-      cuestionarioSaludMental(
-        usuario int,
-        estado varchar(50),
-        motivo varchar(50)
-      );
+      cuestionarioSaludMental(\
+        usuario int,\  
+        estado varchar(50),\
+        motivo varchar(50)\
+      );\
 
-      cuestionarioDescanso(
-          usuario int,
-          descripcionSueño varchar(255)
-      );
+      cuestionarioDescanso(\
+          usuario int,\
+          descripcionSueño varchar(255)\
+      );\
  
  ## Tecnologies 
 
