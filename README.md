@@ -25,4 +25,4 @@ Un cop comenceu heu de canviar aquesta explicació amb la corresponent al vostre
 // obtenir dades de mibands per dormir (consumir les dades).
 
 # Backlog & Sprints
-* 
+* https://institutpedralbes.teamwork.com/#/projects/14122/tasks/board
