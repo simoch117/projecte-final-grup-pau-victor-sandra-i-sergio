@@ -9,8 +9,8 @@
 # Nom del projecte: "Genki Corpus"
 Aplicació web que engloba tots els aspectes de la salut (activitat fisica, alimnetació i descans i salut mental)
 
-# transversals
-Esquema mínim de carpetes pels projectes transversals
+# Esquema carpetes del projecte
+
 
 És obligatori seguir aquesta estructura tot i que la podeu ampliar.
 
