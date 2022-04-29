@@ -6,7 +6,8 @@
 - Sandra Ortiz Vega
 - Sergio Villacampa Racero
 
-# Nom del projecte: ""
+# Nom del projecte: "Genki Corpus"
+Aplicació web que engloba tots els aspectes de la salut (activitat fisica, alimnetació i descans i salut mental)
 
 # transversals
 Esquema mínim de carpetes pels projectes transversals
@@ -17,11 +18,11 @@ Esquema mínim de carpetes pels projectes transversals
 Un cop comenceu heu de canviar aquesta explicació amb la corresponent al vostre projecte (utilitzant markdown)
 
 # Aquest fitxer ha de contenir com a mínim:
- * Nom dels integrants
- * Nom del projecte
- * Petita descripció
  * URL de producció (quan la tingueu)
  * Estat: (explicació de en quin punt està)
 
 
 // obtenir dades de mibands per dormir (consumir les dades).
+
+# Backlog & Sprints
+* 
