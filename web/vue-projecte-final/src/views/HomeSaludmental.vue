@@ -10,9 +10,10 @@ export default {
   },
 };
 </script>
+
 <template>
   <div>
     <Header />
-    <h1>Esto es el HOME de EJERCICIO</h1>
+    <h1>Esto es el HOME de SALUD MENTAL</h1>
   </div>
 </template>

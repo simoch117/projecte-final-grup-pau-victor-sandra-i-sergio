@@ -1,25 +1,24 @@
-<script setup>
+<script>
 import { RouterLink, RouterView } from "vue-router";
-import HelloWorld from "@/components/HelloWorld.vue";
-import HomeEjercicio from "@/view/HomeEjercicio.vue";
+import Header from "./components/HeaderGeneral.vue";
+export default {
+  components: {
+    RouterLink,
+    RouterView,
+    Header,
+  },
+};
 </script>
 
 <template>
-  <header>
-    <div class="wrapper">
-      <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/ejercicio">Ejercicio</RouterLink>
-        <RouterLink to="/alimentacion">Alimentación</RouterLink>
-        <RouterLink to="/saludmentalydescanso"
-          >Salud Mental y Descanso</RouterLink
-        >
-      </nav>
-    </div>
-  </header>
+  <div class="wrapper">
+    <nav>
+      <Header />
+      <RouterLink to="/inicio"></RouterLink>
+    </nav>
 
-  <RouterView />
+    <RouterView />
+  </div>
 </template>
 
-<style>
-</style>
+<style></style>

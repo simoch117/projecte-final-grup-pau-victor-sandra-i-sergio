@@ -1,5 +1,10 @@
 import { createRouter, createWebHistory } from "vue-router";
-import HomeView from "../views/HomeView.vue";
+// import App from "../App.vue";
+import HomeEjercicio from "../views/HomeEjercicio.vue";
+import HomeAlimentacion from "../views/HomeAlimentacion.vue";
+import HomeSaludmental from "../views/HomeSaludmental.vue";
+import HomeInicio from "../views/HomeInicio.vue";
+import HomeDescanso from "../views/HomeDescanso.vue";
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -7,7 +12,7 @@ const router = createRouter({
     {
       path: "/",
       name: "home",
-      component: HomeView,
+      component: HomeInicio,
     },
     {
       path: "/ejercicio",
@@ -20,9 +25,14 @@ const router = createRouter({
       component: HomeAlimentacion,
     },
     {
-      path: "/saludmentalydescanso",
-      name: "saludmentalydescanso",
-      component: HomeSaludmentalydescanso,
+      path: "/saludmental",
+      name: "saludmental",
+      component: HomeSaludmental,
+    },
+    {
+      path: "/descanso",
+      name: "descanso",
+      component: HomeDescanso,
     },
   ],
 });
