@@ -2,7 +2,7 @@
 https://www.figma.com/file/uUSvPj0rMyLP7dxz54P3qg/Sprint-%231
 
 ## BBDD
-  - Tipus: MongoDB o MySQL
+  - Tipus: MongoDB (y MySQL en cas de no ensortir-nos amb express+mongodb)
   - Entitats:
 
     1. **cuestionarioSaludMental**:
@@ -18,6 +18,6 @@ https://www.figma.com/file/uUSvPj0rMyLP7dxz54P3qg/Sprint-%231
  
  ## Tecnologies 
 
-- Developers → VUE, Express y MySQL
-- Production → LABS o Azure/AWS
+- Developers → VUE, Express, MongoDB, CSS, JS i HTML (+ Symfony i MySQL en cas de no ensortir-nos amb express + mongodb)
+- Production → Heroku (+ LABS en cas de no ensortir-nos amb express+mongodb)
 - Test → ? 
