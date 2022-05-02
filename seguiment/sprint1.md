@@ -6,12 +6,14 @@ https://www.figma.com/file/uUSvPj0rMyLP7dxz54P3qg/Sprint-%231
   - Entitats:
 
     1. **cuestionarioSaludMental**:
+        - id int
         - usuario int
         - estado varchar(50)
         - motivo varchar(50)
 
 
     2. **cuestionarioDescanso**:
+        - id int
         - usuario int
         - descripcionSueño varchar(255)
 
