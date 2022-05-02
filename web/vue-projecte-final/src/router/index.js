@@ -4,7 +4,6 @@ import HomeEjercicio from "../views/HomeEjercicio.vue";
 import HomeAlimentacion from "../views/HomeAlimentacion.vue";
 import HomeSaludmental from "../views/HomeSaludmental.vue";
 
-
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [

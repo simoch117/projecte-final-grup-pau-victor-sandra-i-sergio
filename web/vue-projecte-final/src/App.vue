@@ -1,6 +1,6 @@
 <script>
-import { RouterLink } from "vue-router";
-import Header from "../src/components/Header.vue";
+import { RouterLink, RouterView } from "vue-router";
+import Header from "./components/HeaderGeneral.vue";
 export default {
   components: {
     RouterLink,
@@ -22,9 +22,8 @@ export default {
       >Salud Mental y Descanso</RouterLink
     >
 
-    <!-- <RouterView /> -->
+    <RouterView />
   </div>
 </template>
 
-<style>
-</style>
+<style></style>
