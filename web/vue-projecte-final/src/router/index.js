@@ -2,7 +2,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import App from "../App.vue";
 import HomeEjercicio from "../views/HomeEjercicio.vue";
 import HomeAlimentacion from "../views/HomeAlimentacion.vue";
-import HomeSaludmentalydescanso from "../views/HomeSaludmentalydescanso.vue";
+import HomeSaludmental from "../views/HomeSaludmental.vue";
 
 
 const router = createRouter({
@@ -24,9 +24,9 @@ const router = createRouter({
       component: HomeAlimentacion,
     },
     {
-      path: "/saludmentalydescanso",
-      name: "saludmentalydescanso",
-      component: HomeSaludmentalydescanso,
+      path: "/saludmental",
+      name: "saludmental",
+      component: HomeSaludmental,
     },
   ],
 });
