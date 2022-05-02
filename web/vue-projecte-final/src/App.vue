@@ -4,6 +4,7 @@ import Header from "./components/HeaderGeneral.vue";
 export default {
   components: {
     RouterLink,
+    RouterView,
     Header,
   },
 };
@@ -13,14 +14,8 @@ export default {
   <div class="wrapper">
     <nav>
       <Header />
+      <RouterLink to="/inicio"></RouterLink>
     </nav>
-    <RouterLink class="btn btn-primary" to="/ejercicio">Ejercicio</RouterLink>
-    <RouterLink class="btn btn-primary" to="/alimentacion"
-      >Alimentación</RouterLink
-    >
-    <RouterLink class="btn btn-primary" to="/saludmental"
-      >Salud Mental y Descanso</RouterLink
-    >
 
     <RouterView />
   </div>
