@@ -14,6 +14,6 @@ export default {
 <template>
   <div>
     <Header />
-    <h1>Esto es el HOME de ALIMENTACION</h1>
+    <h1>Esto es el HOME de DESCANSO</h1>
   </div>
 </template>
